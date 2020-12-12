@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+  <link rel="icon" href="assets/devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/f1edc9cc6f.js" crossorigin="anonymous"></script>
+
+  <title>Interior Consultant</title>
+
+</head>
+
+<body>
+  <header>
+    <div><span class="logo">This Interior</span></div>
+    <button class="menu" aria-label="Main Menu">
+      <svg width="40" height="40" viewBox="0 0 100 100">
+        <path class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+        <path class="line line2" d="M 20,50 H 80" />
+        <path class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+      </svg>
+    </button>
+    <ul class="nav_ul">
+      <li class="nav_item Home"><a href="#">Home</a></li>
+      <li class="nav_item About"><a href="#">About</a></li>
+      <li class="nav_item Contact"><a href="#">Contact</a></li>
+      <li class="nav_item Projects"><a href="#">Projects</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="product_summary">
+      <h1 class="ps_title">Modern Interior</h1>
+      <p class="ps_details">A full-Service residential & commercial interior design and staging company offering
+        professional organizing & eco-services.</p>
+      <div class="ps_more_info">Read more
+        <span class="read_more arrow">&#8594;</span>
+      </div>
+    </section>
+    <section class="gallery">
+      <picture>
+        <source media="(min-width: 768px)" srcset="assets/photo1.png" class="gal_img">
+        <img src="assets/photo1.png" alt="interior design picturw with chair" class="gal_img">
+      </picture>
+
+      <article class="gallery_designer">
+        <div class="gal_dner_info">
+          <img src="assets/photo2.png" alt="designer's image" class="dner_img">
+          <div>
+            <span class="name">Aliza Webber</span>
+            <span class="position">Interior Designer</span>
+          </div>
+        </div>
+        <p class="ref_info">Designed in 2020 by Aliza Webber.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook ft-icon">
+        </i></a>
+      <a href="#"><i class="fab fa-twitter  ft-icon"></i></a>
+      <a href="#"> <i class="fab fa-instagram ft-icon"></i></a>
+    </div>
+    <p class="attribution">
+			Designed by Chan Bormey Mao @ <a href="https://devchallenges.io/">Devchallenges.io</a>
+		</p>
+  </footer>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
