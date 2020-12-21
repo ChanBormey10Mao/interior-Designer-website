@@ -8,7 +8,7 @@ vv<!-- Please update value in the {}  -->
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chanbormey10mao.github.io/interior-Designer-website/">
       Demo
     </a>
     <span> | </span>
